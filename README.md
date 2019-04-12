@@ -6,7 +6,7 @@ After you pull this repo, following commands helps you installing the required p
 
 ```
 // in Ubuntu 18.04, install following packages
-$ 
+$ sudo apt-get install python3-numpy python3-scipy liblapack-dev libatlas-base-dev libgsl0-dev fftw-dev libglpk-dev libdsdp-dev 
 
 // virtual environment is recommended, but optional
 $ virtualenv venv -p python3
