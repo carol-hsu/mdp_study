@@ -14,4 +14,25 @@ $ virtualenv venv -p python3
 (venv) $ pip install -r requirements.txt
 
 ```
-## Run MDP cases with reinforcement algorithms
+## Run MDP cases with basic planners or reinforcement algorithms
+
+There are three input parameters you can make adjustment: which case to run, run with which methods and set the discount value.
+
+```
+// cheking help message for details
+(venv) $ python cloud_learner.py --help
+usage: cloud_learner.py [-h] [-c CASE] [-d DISCOUNT] [-o OPERATION]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -c CASE, --case CASE  Which case to run [0] machine-only-state case [1]
+                        machine-with-customer-state case
+  -d DISCOUNT, --discount DISCOUNT
+                        Discount for value iteration and policy iteration
+  -o OPERATION, --operation OPERATION
+                        Applying which method to find policy [0] value
+                        iteration [1] policy iteration [2] RL algo
+```
+
+
+
