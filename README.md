@@ -26,12 +26,14 @@ usage: cloud_learner.py [-h] [-c CASE] [-d DISCOUNT] [-o OPERATION]
 optional arguments:
   -h, --help            show this help message and exit
   -c CASE, --case CASE  Which case to run [0] machine-only-state case [1]
-                        machine-with-customer-state case
+                        machine-with-customer-state case (default: 0)
   -d DISCOUNT, --discount DISCOUNT
                         Discount for value iteration and policy iteration
+                        (default: 0.96)
   -o OPERATION, --operation OPERATION
                         Applying which method to find policy [0] value
-                        iteration [1] policy iteration [2] RL algo
+                        iteration [1] policy iteration [2] RL algo (default:
+                        0)
 ```
 
 
